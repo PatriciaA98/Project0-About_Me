@@ -1,0 +1,20 @@
+$color1: darkblue;
+$color2: magenta;
+div {
+    font-size: 18px;
+    p {
+        color: $color1;
+        font-family: cursive;
+    }
+    h1, h2{
+        font-family: fantasy;
+        color: $color2;
+    }
+    ul {
+        color: $color1;
+    }
+    img{
+        border-color: $color2;
+        border-width: medium;
+    }
+}

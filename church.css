@@ -1,0 +1,20 @@
+div {
+  font-size: 18px;
+}
+div p {
+  color: darkblue;
+  font-family: cursive;
+}
+div h1, div h2 {
+  font-family: fantasy;
+  color: magenta;
+}
+div ul {
+  color: darkblue;
+}
+div img {
+  border-color: magenta;
+  border-width: medium;
+}
+
+/*# sourceMappingURL=church.css.map */

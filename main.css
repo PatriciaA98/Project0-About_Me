@@ -5,7 +5,7 @@ nav > ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkmagenta;
+    background-color: #333;
   }
   
  nav > ul > li {
@@ -14,15 +14,19 @@ nav > ul {
   
   nav > ul > li a {
     display: block;
-    color: black;
+    color: magenta;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   
-  nav > ul > li a:hover:not(.active) {
+  nav > ul > li a:hover {
     background-color: #111;
+    border-top: 2px solid magenta;
+    color: magenta;
   }
+  
   
   /*images*/
   img {
