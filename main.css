@@ -1,10 +1,11 @@
+
 /* Nav Bar*/
 nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: darkmagenta;
   }
   
  nav > ul > li {
@@ -13,7 +14,7 @@ nav > ul {
   
   nav > ul > li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,37 +28,39 @@ nav > ul {
   img {
     margin-top: 20px;
     margin-bottom: 20px;
-    border-color: #333;
+    
   }
-  .col-4 > img{
-    transform: skew(30deg);
-    border-radius: 30%;
+  
+  
+  figcaption{
+    text-align: center;
+    color: darkmagenta;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
   }
 
-  /*Beach img slide*/
-.fling-minislide {height:300px; padding-bottom: 50%; overflow:hidden; position:relative; }
-.fling-minislide > img{margin-top: 0;  position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
-
-@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
-.fling-minislide img:nth-child(4){animation-delay:0s;}
-.fling-minislide img:nth-child(3){animation-delay:5s;}
-.fling-minislide img:nth-child(2){animation-delay:10s;}
-.fling-minislide img:nth-child(1){animation-delay:15s;}
-
-/*beach table*/
-table {
-  border: 2px solid black;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+  @media (min-width: 500px) {
+    body {
+        background-color: white;
+    }
+    #main-footer{
+      text-align: right;
+    }
+    
 }
 
-th, td {
-  border: 1px solid black;
-  padding: 5px;
-  text-align: justify;
+@media (max-width: 499px) {
+    body {
+        background-color: darkgrey;
+    }
+    #main-footer{
+      text-align: center;
+    }
 }
 
-th {
-  background-color: lightgray;
+#main-footer {
+  background-color: #333;
+  padding: 10px;
+  color: magenta;
 }
+  

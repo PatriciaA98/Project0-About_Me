@@ -1,0 +1,45 @@
+.grid {
+    background-color: lightslategray;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 48% 50%;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.fav{
+    background-color: mediumorchid;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fav > h1{
+    text-align: center;
+}
+
+h2, h3, h4{
+    text-align: left;
+}
+
+h3{
+    color: darkred;
+    font-size: 20px;
+}
+
+ul li{
+    color: mediumblue;
+}
+ol li{
+    color: darkslategray;
+}
